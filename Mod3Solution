@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+	*{
+	box-sizing: border-box;
+}
+h1{
+	margin-bottom: 15px;
+}
+p2{
+	border: 1px solid blue;
+	background-color: #A52A2A;
+	width: 90%;
+	height: 150px
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Helvetica;
+	color: white;
+}
+#p1{ 
+	background-color: #5F9EA0;
+	position: absolute;
+	top: 50px;
+	right: 10px;
+	width:100px;
+	height: 50px;
+
+}
+#p2{ 
+	background-color: #FF7F50;
+	position: absolute;
+	top: 50px;
+	right: 642px;
+	width:100px;
+	height: 50px;
+	
+
+}
+@media (min-width: 1200px)  {
+	.col-lg-1, .col-lg-2
+   {
+   	float: left;
+   	border: 1px solid green;
+ 
+   }
+.col-lg-1{
+	width: 50%;
+}
+
+.col-lg-1{
+	width: 10%;
+}
+
+p {text-align: center;}
+
+
+	</style>
+
+
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <title>Bootstrap Starter Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <p class="text-center">Pizza</p>
+<body>
+<header>
+
+
+ 
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  </head>
+
+<body>
+  <header>
+     <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Nav Bar</h1></a>
+            
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+<body>
+
+<div class="row">
+	
+	<div class="col-lg-2"><p2>Pizza (Italian: [ˈpittsa], Neapolitan: [ˈpittsə]) is a dish of Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as various types of sausage, anchovies, mushrooms, onions, olives, vegetables, meat, ham, etc.), which is then baked at a high temperature, traditionally in a wood-fired oven.[1] A small pizza is sometimes called a pizzetta. A person who makes pizza is known as a pizzaiolo.
+
+In Italy, pizza served in a restaurant is presented unsliced, and is eaten with the use of a knife and fork.[2][3] In casual settings, however, it is cut into wedges to be eaten while held in the hand.
+
+The term pizza was first recorded in the 10th century in a Latin manuscript from the Southern Italian town of Gaeta in Lazio, on the border with Campania.[4] Modern pizza was invented in Naples, and the dish and its variants have since become popular in many countries.[5] It has become one of the most popular foods in the world and a common fast food item in Europe, North America and Australasia; available at pizzerias (restaurants specializing in pizza), restaurants offering Mediterranean cuisine, via pizza delivery, and as street food.[5] Various food companies sell ready-baked pizzas, which may be frozen, in grocery stores, to be reheated in a home oven.</p2></div>
+	
+</body>
+
+</body>
+</html>
